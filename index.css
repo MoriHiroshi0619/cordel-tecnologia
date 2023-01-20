@@ -58,7 +58,6 @@ p{
     font-size: 2em;
     line-height: 2em;
     padding-bottom: 1em;
-
 }
 
 section{
@@ -144,6 +143,18 @@ a:hover{
         padding: 1px;
         font-size: 0.8em;
     }
+    section#primeira-img{
+        background-image: url('imagens/tela-P.png');
+        background-attachment: scroll;
+    }
+    section#segunda-img{
+        background-image: url('imagens/phone-P.png');
+        background-attachment: scroll;
+    }
+    section#terceira-img{
+        background-image: url('imagens/teclado-P.png');
+        background-attachment: scroll;
+    } 
 }
 
 
