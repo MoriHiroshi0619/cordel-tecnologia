@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --cor00: #0D1117;
+    --cor01: #161c22;
+
+    --cor02: #257A2D;
+    --cor03: #007A0C;
+    --cor04: #00C714;
+    --cor05: #00FA19;
+    --cor06: #4BFB5D;
+
+    --fonte-destaque: 'Teko', sans-serif;
+    --fonte-segundaria: 'Noto Sans', sans-serif;
+    --fonte-padrao: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: var(--fonte-padrao);
+    font-weight: 300;
+    color: var(--cor05);
+    background-color: var(--cor01);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor05));
+    color: var(--cor00);
+    font-family: var(--fonte-destaque);
+    font-weight: 700;
+    text-align: center;
+    padding: 2%;
+}
+
+header > h1{
+    font-size: 5em;
+    padding: 3px;
+    text-shadow: 1px 1px 1px rgba(39, 39, 39, 0.496);
+}
+
+header > p{
+    font-size: 1.1em;
+    font-family: var(--fonte-segundaria);
+}
+
+p{
+    font-size: 2em;
+    line-height: 2em;
+    padding-bottom: 1em;
+
+}
+
+section{
+    padding: 5%;
+}
+
+section > div{
+    width: 50%;
+    padding: 1%;
+}
+
+div.left{
+    background-color: rgba(0, 0, 0, 0.354);
+    border-radius: 20px;
+}
+
+div.right{
+    width: 100%;
+    text-align: end;
+}
+
+
+section#primeira-img{
+    background-image: url('imagens/tela-M.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section#segunda-img{
+    background-image: url('imagens/phone-M.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section#terceira-img{
+    background-image: url('imagens/teclado-M.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+} 
+
+footer > p{
+    background-color: #007A0C;
+    text-align: center;
+    font-size: 1em;
+    color: var(--cor01);
+    font-family: var(--fonte-segundaria);
+    padding: 3px;
+    transition-duration: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    background-color: var(--cor00);
+    color: var(--cor05);
+    padding: 1px 5px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    padding: 6px;
+    text-decoration: underline;
+}
+
+@media (max-width: 570px){
+    header > h1{
+        padding-top: 20px;
+        font-size: 2.3em;
+    }
+    p{
+        font-size: 1.1em;
+    }
+    section > div{
+        width: 60%;
+    }
+    footer > p{
+        padding: 1px;
+        font-size: 0.8em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
