@@ -47,6 +47,7 @@ header > h1{
     font-size: 5em;
     padding: 3px;
     text-shadow: 1px 1px 1px rgba(39, 39, 39, 0.496);
+    font-variant: small-caps;
 }
 
 header > p{
@@ -131,10 +132,10 @@ a:hover{
 @media (max-width: 570px){
     header > h1{
         padding-top: 20px;
-        font-size: 2.3em;
+        font-size: 4em;
     }
     p{
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     section > div{
         width: 60%;
